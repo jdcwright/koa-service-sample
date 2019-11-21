@@ -4,9 +4,13 @@
     "description": "service sample using koa and typescript to serve as a base for future projects",
     "main": "index.js",
     "scripts": {
+        "start": "ts-node ./src/app.ts",
+        "clean": "rm -rf dist",
         "test": "echo \"Error: no test specified\" && exit 1",
         "lint": "npm tslint --project tsconfig.json --format stylish",
-        "build": "npm tsc"
+        "build": "tsc",
+        "server": "node dist/app.js",
+        "dev": "nodemon"
     },
     "repository": {
         "type": "git",
@@ -30,6 +34,7 @@
         "@types/koa": "^2.0.52",
         "@types/koa-bodyparser": "^4.3.0",
         "@types/koa-router": "^7.0.42",
+        "nodemon": "^2.0.0",
         "ts-node": "^8.5.2",
         "tslint": "^5.20.1",
         "tslint-config-airbnb": "^5.11.2",
