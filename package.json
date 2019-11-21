@@ -1,0 +1,38 @@
+{
+    "name": "koa-service-sample",
+    "version": "1.0.0",
+    "description": "service sample using koa and typescript to serve as a base for future projects",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "lint": "npm tslint --project tsconfig.json --format stylish",
+        "build": "npm tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://jdcwright@github.com/jdcwright/koa-service-sample.git"
+    },
+    "author": "jdcw",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/jdcwright/koa-service-sample/issues"
+    },
+    "homepage": "https://github.com/jdcwright/koa-service-sample#readme",
+    "dependencies": {
+        "@koa/router": "^8.0.2",
+        "koa": "^2.11.0",
+        "koa-bodyparser": "^4.2.1",
+        "koa-unless": "^1.0.7",
+        "lodash": "^4.17.15",
+        "winston": "^3.2.1"
+    },
+    "devDependencies": {
+        "@types/koa": "^2.0.52",
+        "@types/koa-bodyparser": "^4.3.0",
+        "@types/koa-router": "^7.0.42",
+        "ts-node": "^8.5.2",
+        "tslint": "^5.20.1",
+        "tslint-config-airbnb": "^5.11.2",
+        "typescript": "^3.7.2"
+    }
+}
