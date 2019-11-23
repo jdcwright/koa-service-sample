@@ -7,7 +7,7 @@
         "start": "ts-node ./src/app.ts",
         "clean": "rm -rf dist",
         "test": "echo \"Error: no test specified\" && exit 1",
-        "lint": "npm tslint --project tsconfig.json --format stylish",
+        "lint": "tslint --project tsconfig.json --format stylish",
         "build": "tsc",
         "server": "node dist/app.js",
         "dev": "nodemon"
@@ -23,9 +23,10 @@
     },
     "homepage": "https://github.com/jdcwright/koa-service-sample#readme",
     "dependencies": {
-        "@koa/router": "^8.0.2",
+        "@types/lodash": "^4.14.149",
         "koa": "^2.11.0",
         "koa-bodyparser": "^4.2.1",
+        "koa-router": "^7.4.0",
         "koa-unless": "^1.0.7",
         "lodash": "^4.17.15",
         "winston": "^3.2.1"
