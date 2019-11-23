@@ -27,11 +27,13 @@
         "@types/hapi__joi": "^16.0.3",
         "@types/lodash": "^4.14.149",
         "@types/node": "^12.12.12",
+        "knex": "^0.20.2",
         "koa": "^2.11.0",
         "koa-bodyparser": "^4.2.1",
         "koa-router": "^7.4.0",
         "koa-unless": "^1.0.7",
         "lodash": "^4.17.15",
+        "node-cache": "^5.0.2",
         "winston": "^3.2.1"
     },
     "devDependencies": {
