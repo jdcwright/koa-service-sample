@@ -5,7 +5,7 @@ import logger from '../lib/logger';
 // config
 import { LOG_LEVEL } from '../config';
 
-export default async (ctx: Koa.Context, next: Function) => {
+export default async (ctx: Koa.Context, next: Function): Promise<void> => {
     try {
         await next();
     }

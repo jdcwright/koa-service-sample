@@ -23,7 +23,10 @@
     },
     "homepage": "https://github.com/jdcwright/koa-service-sample#readme",
     "dependencies": {
+        "@hapi/joi": "^16.1.7",
+        "@types/hapi__joi": "^16.0.3",
         "@types/lodash": "^4.14.149",
+        "@types/node": "^12.12.12",
         "koa": "^2.11.0",
         "koa-bodyparser": "^4.2.1",
         "koa-router": "^7.4.0",
