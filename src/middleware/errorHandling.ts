@@ -25,7 +25,6 @@ export default async (ctx: Koa.Context, next: Function): Promise<void> => {
         if (error && error.response) {
             const { status, data } = error.response;
             logger.error(`Error trying to call ${ctx.request.url}`);
-            logger.error('API Error:');
             logger.error(JSON.stringify(data));
 
             ctx.status = status || 503;
