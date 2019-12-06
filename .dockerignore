@@ -1,0 +1,7 @@
+node_modules
+npm-debug.log
+.git*
+.vscode
+nodemon.json
+.nvmrc
+README.md
