@@ -2,9 +2,10 @@
     "name": "koa-service-sample",
     "version": "1.0.0",
     "description": "service sample using koa and typescript to serve as a base for future projects",
-    "main": "index.js",
+    "main": "app.ts",
     "scripts": {
         "start": "ts-node ./src/app.ts",
+        "debug": "node --inspect -r ts-node/register ./src/app.ts",
         "clean": "rm -rf dist",
         "test": "echo \"Error: no test specified\" && exit 1",
         "lint": "tslint --project tsconfig.json --format stylish",

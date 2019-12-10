@@ -7,5 +7,5 @@ WORKDIR /build
 ARG ENVIRONMENT=prod
 RUN npm ci && npm run build
 
-EXPOSE 3000
+EXPOSE 3000 9229
 CMD npm run server

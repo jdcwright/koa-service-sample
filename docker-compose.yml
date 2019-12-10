@@ -1,0 +1,13 @@
+version: "3"
+services:
+  koa-service-sample:
+    build:
+      context: .
+      args:
+        ENVIRONMENT: dev
+    environment:
+      - LOG_LEVEL=info
+      - ENVIRONMENT=dev
+    ports:
+      - 3000:3000
+      - 9229:9229
