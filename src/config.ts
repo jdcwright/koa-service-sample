@@ -1,6 +1,6 @@
 export const PORT: number = 3000;
 export const LOG_LEVEL: string = process.env.LOG_LEVEL || 'debug';
-export const API_URL: string = '';
+export const API_URL: string = process.env.API_URL || '';
 
 // Database Configuration
 export const dbhost = process.env.DB_HOST || '';
