@@ -45,7 +45,7 @@
         "koa-bodyparser": "^4.2.1",
         "koa-router": "^7.4.0",
         "koa-unless": "^1.0.7",
-        "lodash": "^4.17.15",
+        "lodash": "^4.17.21",
         "node-cache": "^5.0.2",
         "winston": "^3.2.1"
     },
